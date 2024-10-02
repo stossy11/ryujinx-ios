@@ -24,6 +24,6 @@ mkdir dotnetarm64 binaryrel
 cd dotnetarm64
 tar xf ../downloaded_binaries/dotnet-sdk-7.0.101-osx-arm64.tar.gz
 cd ../binaryrel
-tar xf ../downloaded_binaries/Ryujinx-1.1.0-macos1-macos_universal.app.tar.gz
+tar xf ../downloaded_binaries/ryujinx-1.1.1401-macos_universal.app.tar
 cd ..
 tar xf downloaded_binaries/ryujinx_arm64_build.tar.xz
