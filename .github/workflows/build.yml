@@ -13,7 +13,7 @@ jobs:
       run: ./scripts/ci_build.sh
 
     - name: Upload build output
-      uses: actions/upload-artifact@v1
+      uses: actions/upload-artifact@v3
       with:
         name: RyujinxApp
         path: ipa_make/RyujinxApp.ipa
